@@ -4,12 +4,12 @@ import gdown
 import os
 
 st.set_page_config(page_title="Modificador Artículo desde Drive", layout="centered")
-st.title("🌐 Modificador de Artículo (SKU) desde Google Drive")
+st.title("🛠️ Modificador de Artículo (SKU) desde Google Drive")
 
 st.write("""
 1. Sube tu archivo CSV a Google Drive.  
-2. Comparte el archivo como **'Cualquiera con el enlace' puede ver**.  
-3. Pega aquí el enlace para modificar la columna **Artículo** (añadir un `0` al inicio).
+2. Comparte el archivo como **'Cualquier usuario que tenga el vínculo'** puede ver.  
+3. Pega aquí el enlace para modificar la columna **Artículo (SKU)** (añadir un `0` al inicio).
 """)
 
 url = st.text_input("🔗 Pega el enlace de Google Drive aquí")
